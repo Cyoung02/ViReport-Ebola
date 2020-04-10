@@ -1,0 +1,1 @@
+tdcl -t /home/colin/Desktop/NiemaLab/testingViReport/ViReport-Ebola-Analysis/Results/output_files/rooted.tre -s /home/colin/Desktop/NiemaLab/testingViReport/ViReport-Ebola-Analysis/Results/intermediate_files/treedater/times_treedater.txt -l 19241 -o /home/colin/Desktop/NiemaLab/testingViReport/ViReport-Ebola-Analysis/Results/intermediate_files/treedater/dated.tre

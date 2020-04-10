@@ -1,0 +1,40 @@
+/--------------------\
+|  ViReport v0.0.1   |
+| Niema Moshiri 2020 |
+\--------------------/
+
+========================   Workflow Process   ========================
+[2020-04-10 11:27:12] ViReport was run as follows: ./ViReport.py -s ../Ebola_Sequences.fasta -t ../Sample_Times.tsv -o /home/colin/Desktop/NiemaLab/testingViReport/ViReport-Ebola-Analysis/Results --continue_workflow
+[2020-04-10 11:27:12] Output directory: /home/colin/Desktop/NiemaLab/testingViReport/ViReport-Ebola-Analysis/Results
+[2020-04-10 11:27:12] Starting viral analysis workflow...
+
+[2020-04-10 11:27:12] Initializing module implementations...
+[2020-04-10 11:27:12] Finished initializing 13 module implementations
+
+[2020-04-10 11:27:12] Running 'Preprocessing_SafeNames'...
+Safename sequences exist. Skipping recomputation.
+Safename sample times exist. Skipping recomputation.
+[2020-04-10 11:27:15] Preprocessed sequences output to: /home/colin/Desktop/NiemaLab/testingViReport/ViReport-Ebola-Analysis/Results/output_files/sequences_safe.fas
+[2020-04-10 11:27:15] Preprocessed sample times output to: /home/colin/Desktop/NiemaLab/testingViReport/ViReport-Ebola-Analysis/Results/output_files/times_safe.txt
+
+[2020-04-10 11:27:15] Running 'MultipleSequenceAlignment_MAFFT'...
+Multiple sequence alignment exists. Skipping recomputation.
+[2020-04-10 11:27:15] Multiple sequence alignment output to: /home/colin/Desktop/NiemaLab/testingViReport/ViReport-Ebola-Analysis/Results/output_files/sequences_safe.aln
+
+[2020-04-10 11:27:15] Running 'PairwiseDistancesSequence_tn93'...
+Pairwise sequence distances exist. Skipping recomputation.
+[2020-04-10 11:27:15] Pairwise sequence distances output to: /home/colin/Desktop/NiemaLab/testingViReport/ViReport-Ebola-Analysis/Results/output_files/pairwise_distances_sequence.csv
+
+[2020-04-10 11:27:15] Running 'PhylogeneticInference_IQTREE'...
+Inferred phylogeny exists. Skipping recomputation.
+[2020-04-10 11:27:15] Inferred (unrooted) phylogeny output to: /home/colin/Desktop/NiemaLab/testingViReport/ViReport-Ebola-Analysis/Results/output_files/unrooted.tre
+
+[2020-04-10 11:27:15] Running 'PairwiseDistancesTree_TreeSwift'...
+Pairwise phylogenetic distances exist. Skipping recomputation.
+[2020-04-10 11:27:15] Pairwise phylogenetic distances output to: /home/colin/Desktop/NiemaLab/testingViReport/ViReport-Ebola-Analysis/Results/output_files/pairwise_distances_phylogeny.csv
+
+[2020-04-10 11:27:15] Running 'Rooting_MinVar'...
+Rooted phylogeny exists. Skipping recomputation.
+[2020-04-10 11:27:15] Rooted phylogeny output to: /home/colin/Desktop/NiemaLab/testingViReport/ViReport-Ebola-Analysis/Results/output_files/rooted.tre
+
+[2020-04-10 11:27:15] Running 'Dating_treedater'...
