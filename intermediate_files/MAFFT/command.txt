@@ -1,1 +1,1 @@
-mafft --reorder --nomemsave --thread -1 --auto /home/colin/Desktop/NiemaLab/testingViReport/Results/output_files/sequences_safe.fas
+mafft --reorder --nomemsave --thread -1 --auto /home/colin/Desktop/NiemaLab/testingViReport/Results/intermediate_files/MAFFT/seqs_unzipped.fas

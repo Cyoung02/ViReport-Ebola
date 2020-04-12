@@ -1,1 +1,1 @@
-iqtree -m MFP -s /home/colin/Desktop/NiemaLab/testingViReport/Results/output_files/sequences_safe.aln -nt AUTO
+iqtree -m MFP -s /home/colin/Desktop/NiemaLab/testingViReport/Results/intermediate_files/IQTREE/aln_unzipped.fas -nt AUTO
