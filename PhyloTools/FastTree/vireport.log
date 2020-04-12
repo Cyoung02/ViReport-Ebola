@@ -1,0 +1,33 @@
+/--------------------\
+|  ViReport v0.0.1   |
+| Niema Moshiri 2020 |
+\--------------------/
+
+========================   Workflow Process   ========================
+[2020-04-12 13:01:15] ViReport was run as follows: ./ViReport.py -s ../Ebola_Sequences.fasta -t ../Sample_Times.tsv -o /home/colin/Desktop/NiemaLab/testingViReport/Ebola-Analysis/PhyloTools/FastTree/ --phylo FastTree -gz
+[2020-04-12 13:01:15] Output directory: /home/colin/Desktop/NiemaLab/testingViReport/Ebola-Analysis/PhyloTools/FastTree
+[2020-04-12 13:01:15] Starting viral analysis workflow...
+
+[2020-04-12 13:01:15] Initializing module implementations...
+[2020-04-12 13:01:15] Finished initializing 13 module implementations
+
+[2020-04-12 13:01:15] Running 'Preprocessing_SafeNames'...
+[2020-04-12 13:01:19] Preprocessed sequences output to: /home/colin/Desktop/NiemaLab/testingViReport/Ebola-Analysis/PhyloTools/FastTree/output_files/sequences_safe.fas.gz
+[2020-04-12 13:01:19] Preprocessed sample times output to: /home/colin/Desktop/NiemaLab/testingViReport/Ebola-Analysis/PhyloTools/FastTree/output_files/times_safe.txt.gz
+
+[2020-04-12 13:01:19] Running 'MultipleSequenceAlignment_MAFFT'...
+[2020-04-12 13:19:05] Multiple sequence alignment output to: /home/colin/Desktop/NiemaLab/testingViReport/Ebola-Analysis/PhyloTools/FastTree/output_files/sequences_safe.aln.gz
+
+[2020-04-12 13:19:05] Running 'PairwiseDistancesSequence_tn93'...
+[2020-04-12 13:19:31] Pairwise sequence distances output to: /home/colin/Desktop/NiemaLab/testingViReport/Ebola-Analysis/PhyloTools/FastTree/output_files/pairwise_distances_sequence.csv.gz
+
+[2020-04-12 13:19:31] Running 'PhylogeneticInference_FastTree'...
+[2020-04-12 13:37:36] Inferred (unrooted) phylogeny output to: /home/colin/Desktop/NiemaLab/testingViReport/Ebola-Analysis/PhyloTools/FastTree/output_files/unrooted.tre.gz
+
+[2020-04-12 13:37:36] Running 'PairwiseDistancesTree_TreeSwift'...
+[2020-04-12 13:37:51] Pairwise phylogenetic distances output to: /home/colin/Desktop/NiemaLab/testingViReport/Ebola-Analysis/PhyloTools/FastTree/output_files/pairwise_distances_phylogeny.csv.gz
+
+[2020-04-12 13:37:51] Running 'Rooting_MinVar'...
+[2020-04-12 13:37:51] Rooted phylogeny output to: /home/colin/Desktop/NiemaLab/testingViReport/Ebola-Analysis/PhyloTools/FastTree/output_files/rooted.tre.gz
+
+[2020-04-12 13:37:51] Running 'Dating_treedater'...
