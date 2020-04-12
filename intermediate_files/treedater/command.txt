@@ -1,1 +1,0 @@
-tdcl -t /home/colin/Desktop/NiemaLab/testingViReport/Results/output_files/rooted.tre.gz -s /home/colin/Desktop/NiemaLab/testingViReport/Results/intermediate_files/treedater/times_treedater.txt -l 19241 -o /home/colin/Desktop/NiemaLab/testingViReport/Results/intermediate_files/treedater/dated.tre
