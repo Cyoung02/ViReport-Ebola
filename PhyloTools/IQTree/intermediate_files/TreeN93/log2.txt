@@ -1,0 +1,13 @@
+=== INPUTS ===
+Input File:  /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTree/intermediate_files/TreeN93/treen93.tre.gz
+Output File: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTree/output_files/transmission_clusters.tsv.gz
+Mode:        max_non_singleton
+
+Traceback (most recent call last):
+  File "/usr/local/bin/TreeN93_cluster.py", line 67, in <module>
+    from gzip import open as gopen; treestr = gopen(args.input).read().decode().strip()
+  File "/usr/lib/python3.6/gzip.py", line 53, in open
+    binary_file = GzipFile(filename, gz_mode, compresslevel)
+  File "/usr/lib/python3.6/gzip.py", line 163, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTree/intermediate_files/TreeN93/treen93.tre.gz'
