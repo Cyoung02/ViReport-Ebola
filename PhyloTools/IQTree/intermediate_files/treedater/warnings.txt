@@ -1,2 +1,0 @@
-Error in dater(tre, sts, sl) : Missing sample time information.
-Execution halted
