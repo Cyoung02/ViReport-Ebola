@@ -4,3 +4,5 @@ In this directory, I include several different molecular epidemiological analyse
 * TreeDater
 * LogDate
 * LSD2
+
+The rest of the pipeline will remain as the default used by ViReport.

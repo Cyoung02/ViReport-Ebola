@@ -5,3 +5,6 @@ In this directory, I include several different molecular epidemiological analyse
 * FastTree
 * RAx-ML
 * PhyML
+
+The rest of the pipeline will remain as the default used by ViReport.
+
