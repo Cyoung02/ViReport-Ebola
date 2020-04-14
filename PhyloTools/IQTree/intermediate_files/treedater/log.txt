@@ -1,5 +1,0 @@
-Note: Initial guess of substitution rate not provided. Will attempt to guess starting conditions. Provide initial guesses of the rate using *omega0* parameter. 
-NOTE: Neither sample times nor sample time bounds were provided for the following lineages:
-KU174138_1 KU174137_1 MH464888_1 KU174142_1 KU174139_1 KU174141_1 KU174140_1 AF499101_1 NC_002549_1 AF086833_2 HZ885821_1 AF272001_1 AY142960_1 KT762962_1 KT762961_1 KR013754_3 LT605058_1 KR781608_1 KR781609_1 MN416402_1
- Provide sampling info or remove these lineages from the tree. Stopping.
- 
