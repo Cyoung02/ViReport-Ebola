@@ -1,7 +1,0 @@
-=== INPUTS ===
-Input File:  /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTree/output_files/pairwise_distances_phylogeny.csv.gz
-Output File: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTree/intermediate_files/TreeN93/treen93.tre.gz
-
-=== COMPUTE TREEN93 TREE ===
-Number of Individuals: 1945
-Total runtime: 48.17967391014099 seconds
