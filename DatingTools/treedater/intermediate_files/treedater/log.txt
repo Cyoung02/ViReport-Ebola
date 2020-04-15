@@ -1,0 +1,51 @@
+Note: Initial guess of substitution rate not provided. Will attempt to guess starting conditions. Provide initial guesses of the rate using *omega0* parameter. 
+Note: Minimum temporal branch length  (*minblen*) set to 0.801439588688946. Increase *minblen* in the event of convergence failures. 
+Tree is rooted. Not estimating root position.
+Initial guesses of substitution rate: 2.34881704235802e-07,2.63393904749278e-07,2.91906105262753e-07,1.39384500948133e-06,1.59620421075912e-06,1.7985634120369e-06 
+
+NOTE: The p values for lineage clock rates show at least one outlying value after adjusting for multiple-testing.  This indicates a poor fit to the data for at least a portion of the phylogenetic tree. To visualize the distribution p-values, use *goodnessOfFitPlot*. 
+		
+
+The following steps may help to fix or alleviate common problems: 
+* Check that the vector of sample times is correctly named and that the units are correct. 
+* If passing a rooted tree, make sure that the root position was chosen correctly, or estimate the root position by passing an unrooted tree (e.g. pass ape::unroot(tree))
+* The root position may be poorly estimated. Try increasing the _searchRoot_ parameter in order to test more lineages as potential root positions. 
+* The model may be fitted by a relaxed or strict molecular clock. Try changing the _clock_ parameter 
+* A poor fit may be due to a small number of lineages with unusual / outlying branch lengths which can occur due to sequencing error or poor alignment. Try the *outlierTips* command to identify and remove these lineages. 
+* Check that there is adequate variance in sample times in order to estimate a molecular clock by doing a root-to-tip regression. Try the *rootToTipRegressionPlot* command. If the clock rate can not be reliably estimated, you can fix the value to a range using the _meanRateLimits_ option which would estimate a time tree given the previous estimate of clock rates. 
+
+NOTE: The p values for lineage clock rates show at least one outlying value after adjusting for multiple-testing.  This indicates a poor fit to the data for at least a portion of the phylogenetic tree. To visualize the distribution p-values, use *goodnessOfFitPlot*. 
+		
+
+The following steps may help to fix or alleviate common problems: 
+* Check that the vector of sample times is correctly named and that the units are correct. 
+* If passing a rooted tree, make sure that the root position was chosen correctly, or estimate the root position by passing an unrooted tree (e.g. pass ape::unroot(tree))
+* The root position may be poorly estimated. Try increasing the _searchRoot_ parameter in order to test more lineages as potential root positions. 
+* The model may be fitted by a relaxed or strict molecular clock. Try changing the _clock_ parameter 
+* A poor fit may be due to a small number of lineages with unusual / outlying branch lengths which can occur due to sequencing error or poor alignment. Try the *outlierTips* command to identify and remove these lineages. 
+* Check that there is adequate variance in sample times in order to estimate a molecular clock by doing a root-to-tip regression. Try the *rootToTipRegressionPlot* command. If the clock rate can not be reliably estimated, you can fix the value to a range using the _meanRateLimits_ option which would estimate a time tree given the previous estimate of clock rates. 
+
+Phylogenetic tree with 1945 tips and 1944 internal nodes.
+
+Tip labels:
+	MH121161_1, KU156714_1, KU156715_1, KU042955_1, KR074997_1, KR074998_1, ...
+
+Rooted; includes branch lengths.
+
+ Time of common ancestor 
+716026.520465352 
+
+ Time to common ancestor (before most recent sample) 
+20914.4795346478 
+
+ Weighted mean substitution rate (adjusted by branch lengths) 
+5.41015854481537e-06 
+
+ Unadjusted mean substitution rate 
+5.41015854481537e-06 
+
+ Clock model  
+strict 
+
+ Coefficient of variation of rates 
+0 
