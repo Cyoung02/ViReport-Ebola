@@ -1,4 +1,7 @@
-Traceback (most recent call last):
-  File "/usr/local/bin/TreeN93.py", line 6, in <module>
-    from niemads import DisjointSet
-ModuleNotFoundError: No module named 'niemads'
+=== INPUTS ===
+Input File:  /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTree/output_files/pairwise_distances_phylogeny.csv.gz
+Output File: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTree/intermediate_files/TreeN93/treen93.tre.gz
+
+=== COMPUTE TREEN93 TREE ===
+Number of Individuals: 1945
+Total runtime: 57.265198707580566 seconds

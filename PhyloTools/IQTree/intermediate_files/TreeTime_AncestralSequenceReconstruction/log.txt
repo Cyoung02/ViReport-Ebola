@@ -1,7 +1,7 @@
 
 0.00	-TreeAnc: set-up
 
-24.49	WARNING: Previous versions of TreeTime (<0.7.0) RECONSTRUCTED sequences of
+21.68	WARNING: Previous versions of TreeTime (<0.7.0) RECONSTRUCTED sequences of
      	tips at positions with AMBIGUOUS bases. This resulted in unexpected
      	behavior is some cases and is no longer done by default. If you want to
      	replace those ambiguous sites with their most likely state, rerun with
