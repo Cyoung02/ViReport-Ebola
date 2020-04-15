@@ -1,0 +1,27 @@
+/--------------------\
+|  ViReport v0.0.1   |
+| Niema Moshiri 2020 |
+\--------------------/
+
+========================   Workflow Process   ========================
+[2020-04-14 20:08:42] ViReport was run as follows: ./ViReport.py -s ../Ebola_Sequences.fasta -t ../Sample_Times.tsv -o ../Analysis/PhyloTools/FastTree/ --continue_workflow -gz --phylo FastTree
+[2020-04-14 20:08:42] Output directory: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/FastTree
+[2020-04-14 20:08:42] Starting viral analysis workflow...
+
+[2020-04-14 20:08:42] Initializing module implementations...
+[2020-04-14 20:08:42] Finished initializing 13 module implementations
+
+[2020-04-14 20:08:42] Running 'Preprocessing_SafeNames'...
+Safename sample times exist. Skipping recomputation.
+[2020-04-14 20:08:49] Preprocessed sequences output to: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/FastTree/output_files/sequences_safe.fas.gz
+[2020-04-14 20:08:49] Preprocessed sample times output to: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/FastTree/output_files/times_safe.txt.gz
+
+[2020-04-14 20:08:49] Running 'MultipleSequenceAlignment_MAFFT'...
+Multiple sequence alignment exists. Skipping recomputation.
+[2020-04-14 20:08:49] Multiple sequence alignment output to: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/FastTree/output_files/sequences_safe.aln.gz
+
+[2020-04-14 20:08:49] Running 'PairwiseDistancesSequence_tn93'...
+Pairwise sequence distances exist. Skipping recomputation.
+[2020-04-14 20:08:49] Pairwise sequence distances output to: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/FastTree/output_files/pairwise_distances_sequence.csv.gz
+
+[2020-04-14 20:08:49] Running 'PhylogeneticInference_FastTree'...

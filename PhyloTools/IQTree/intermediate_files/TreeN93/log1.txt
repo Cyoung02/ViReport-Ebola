@@ -4,4 +4,4 @@ Output File: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQ
 
 === COMPUTE TREEN93 TREE ===
 Number of Individuals: 1945
-Total runtime: 57.265198707580566 seconds
+Total runtime: 48.17967391014099 seconds
