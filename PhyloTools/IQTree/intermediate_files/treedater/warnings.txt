@@ -1,0 +1,7 @@
+Loading required package: treedater
+Loading required package: ape
+Loading required package: limSolve
+Error in .optim.r.gammatheta.nbinom0(Ti, r, gammatheta, td, lnd.mean.rate.prior) : 
+  Can not optimize rate parameters from initial conditions. Try adjusting *meanRateLimits*.
+Calls: dater -> .dater -> .optim.r.gammatheta.nbinom0
+Execution halted
