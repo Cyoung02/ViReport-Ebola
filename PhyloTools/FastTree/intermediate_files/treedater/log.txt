@@ -1,0 +1,3 @@
+Note: *dater* called with non binary tree. Will proceed after resolving polytomies.
+Note: Minimum temporal branch length  (*minblen*) set to 0.801439588688946. Increase *minblen* in the event of convergence failures. 
+Tree is rooted. Not estimating root position.
