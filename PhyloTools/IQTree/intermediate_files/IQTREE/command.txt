@@ -1,1 +1,0 @@
-iqtree -m GTR+I+R -s /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTree/intermediate_files/IQTREE/aln_unzipped.fas -nt AUTO
