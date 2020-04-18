@@ -1,0 +1,1 @@
+mafft --reorder --nomemsave --auto /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTreeMFP/intermediate_files/MAFFT/seqs_unzipped.fas
