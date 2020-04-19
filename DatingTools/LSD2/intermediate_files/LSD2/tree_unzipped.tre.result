@@ -1,0 +1,37 @@
+
+LEAST-SQUARE METHODS TO ESTIMATE RATES AND DATES - v1.6.2 
+
+
+Input files:
+  i                                               Input tree file : /home/colin/Desktop/NiemaLab/testingViReport/Analysis/DatingTools/LSD2/intermediate_files/LSD2/tree_unzipped.tre
+  d                                               Input date file : /home/colin/Desktop/NiemaLab/testingViReport/Analysis/DatingTools/LSD2/intermediate_files/LSD2/times_lsd.txt
+  p                                                Partition file : No
+Output file:
+  o                                                  Output file  : /home/colin/Desktop/NiemaLab/testingViReport/Analysis/DatingTools/LSD2/intermediate_files/LSD2/tree_unzipped.tre.result
+Parameters:
+  c                                              With constraints : Yes
+  t                                      Lower bound for the rate : 1e-10
+  v                                                With variances : No
+  r                                             Estimate the root : No
+  w                                       Given substitution rate : No
+  g                                               Given outgroups : No
+  n                                             Multiple data set : No
+  f                                  Compute confidence intervals : No
+  e                                          Exclude outlier tips : No
+  u                Min internal branch length of time scaled tree : To estimate
+  R     Rounding number for min branch length of time scaled tree : To guess
+  U                Min external branch length of time scaled tree : To estimate
+  l                        Collapsed internal branch length limit : 0.0005
+  D                                            Output date format : Based on input date format
+
+  h to print Help 
+  y to accept or type a letter to change an option (x = Exit) 
+Tree 1 
+Minimum branch length of time scaled tree (settable via option -u and -U): 18479.6, rounded to 18479.6 (1.84796e+06/100) using factor 100 (settable via option -R)
+*RESULTS:
+- Dating results:
+ rate 5.4273e-10, tMRCA -3.11982e+07, objective function 0.0839148
+
+*********************************************************
+
+TOTAL ELAPSED TIME: 0.04947 seconds

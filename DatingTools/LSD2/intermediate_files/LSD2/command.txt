@@ -1,1 +1,1 @@
-lsd2 -c -i /home/colin/Desktop/NiemaLab/testingViReport/Analysis/DatingTools/LSD2/intermediate_files/LSD2/tree_unzipped.tre -d /home/colin/Desktop/NiemaLab/testingViReport/Analysis/DatingTools/LSD2/intermediate_files/LSD2/times_lsd.txt
+lsd2 -c -s 1000 -i /home/colin/Desktop/NiemaLab/testingViReport/Analysis/DatingTools/LSD2/intermediate_files/LSD2/tree_unzipped.tre -d /home/colin/Desktop/NiemaLab/testingViReport/Analysis/DatingTools/LSD2/intermediate_files/LSD2/times_lsd.txt
