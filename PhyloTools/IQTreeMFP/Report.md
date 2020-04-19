@@ -79,3 +79,39 @@ Pairwise distances were computed from the phylogeny using TreeSwift (Moshiri, 20
 </figure>
 
 
+
+## Phylogenetic Dating
+The rooted phylogeny was dated using treedater (Volz & Frost, 2017). The height of the dated tree was 136384.202 days, so given that the most recent sample was collected on 2018-09-05, the estimated time of the most recent common ancestor (tMRCA) was 1645-04-08.
+
+<figure>
+<img src="./report_files/figs/tree_time.png" width="auto" height="auto" style="max-width:100%;max-height:100%;">
+<figcaption>Dated phylogenetic tree in unit of years</figcaption>
+</figure>
+
+
+
+## Ancestral Sequence Reconstruction
+Ancestral sequence reconstruction was performed using TreeTime (Sagulenko et al., 2018).
+## Transmission Clustering
+Transmission clustering was performed using TreeN93 (Moshiri, 2018) using pairwise phylogenetic distances. The total number of singletons (i.e., non-clustered individuals) was 833, and the total number of clusters (excluding singletons) was 254. The average cluster size (excluding singletons) was 4.378, with a standard deviation of 8.0734, and the maximum and minimum cluster sizes were 111 and 2, respectively.
+
+<figure>
+<img src="./report_files/figs/cluster_sizes.png" width="auto" height="auto" style="max-width:75%;">
+<figcaption>Distribution of cluster sizes (excluding singletons)</figcaption>
+</figure>
+
+
+
+## Citations
+
+* Kalyaanamoorthy S., Minh B.Q., Wong T.K.F., von Haeseler A., Jermiin L.S. (2017). "ModelFinder: Fast model selection for accurate phylogenetic estimates". Nature Methods. 14, 587-589.
+* Katoh K., Standley D.M. (2013). "MAFFT Multiple Sequence Alignment Software Version 7: Improvements in Performance and Usability". Molecular Biology and Evolution. 30(4), 772-780.
+* Mai U., Sayyari E., Mirarab S. (2017). "Minimum Variance Rooting of Phylogenetic Trees and Implications for Species Tree Reconstruction". PLoS ONE. 12(8), e0182238.
+* Moshiri N. (2018). "TreeN93: a non-parametric distance-based method for inferring viral transmission clusters". bioRxiv.
+* Moshiri N. (2020). "TreeSwift: a massively scalable Python tree package". SoftwareX. In press.
+* Moshiri N. (2020). "ViReport" (https://github.com/niemasd/ViReport).
+* Nguyen L.T., Schmidt H.A., von Haeseler A., Minh B.Q. (2015). "IQ-TREE: A fast and effective stochastic algorithm for estimating maximum likelihood phylogenies". Molecular Biology and Evolution. 32(1), 268-274.
+* Pond S.L.K., Weaver S., Leigh Brown A.J., Wertheim J.O. (2018). "HIV-TRACE (TRAnsmission Cluster Engine): a Tool for Large Scale Molecular Epidemiology of HIV-1 and Other Rapidly Evolving Pathogens". Molecular Biology and Evolution. 35(7), 1812-1819.
+* Sagulenko P., Puller V., Neher R.A. (2018). "TreeTime: Maximum-likelihood phylodynamic analysis". Virus Evolution. 4(1), vex042.
+* Volz E.M., Frost S.D.W. (2017). "Scalable relaxed clock phylogenetic dating". Virus Evolution. 3(2), vex025.
+

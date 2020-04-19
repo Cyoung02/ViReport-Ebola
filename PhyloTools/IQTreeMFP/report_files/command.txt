@@ -1,0 +1,1 @@
+pdflatex /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTreeMFP/report_files/main.tex

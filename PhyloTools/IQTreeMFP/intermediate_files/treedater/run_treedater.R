@@ -3,5 +3,5 @@ tree <- ape::read.tree('/home/colin/Desktop/NiemaLab/testingViReport/Analysis/Ph
 seqlen <- 19328
 times_tab <- read.csv('/home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTreeMFP/intermediate_files/treedater/times_treedater.txt', header=FALSE)
 times <- setNames(times_tab[,2], times_tab[,1])
-out <- dater(tree, times, seqlen, clock='uncorrelated', numStartConditions=0, omega0=0.000000)
+out <- dater(tree, times, seqlen, clock='uncorrelated', numStartConditions=0)
 write.tree(out, '/home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTreeMFP/output_files/dated.tre')
