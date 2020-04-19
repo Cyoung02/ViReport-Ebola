@@ -1,0 +1,42 @@
+
+0.00	-TreeAnc: set-up
+
+24.24	WARNING: Previous versions of TreeTime (<0.7.0) RECONSTRUCTED sequences of
+     	tips at positions with AMBIGUOUS bases. This resulted in unexpected
+     	behavior is some cases and is no longer done by default. If you want to
+     	replace those ambiguous sites with their most likely state, rerun with
+     	`reconstruct_tip_states=True` or `--reconstruct-tip-states`.
+
+Inferred sequence evolution model (saved as /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTreeMFP/intermediate_files/TreeTime_AncestralSequenceReconstruction//sequence_evolution_model.txt):
+Substitution rate (mu): 1.0
+
+Equilibrium frequencies (pi_i):
+  A: 0.3096
+  C: 0.2188
+  G: 0.2005
+  T: 0.261
+  -: 0.0102
+
+Symmetrized rates from j->i (W_ij):
+	A	C	G	T	-
+  A	0	0.4899	2.7417	0.3308	2.792
+  C	0.4899	0	0.2984	3.5132	5.6831
+  G	2.7417	0.2984	0	0.5242	3.0731
+  T	0.3308	3.5132	0.5242	0	7.4452
+  -	2.792	5.6831	3.0731	7.4452	0
+
+Actual rates from j->i (Q_ij):
+	A	C	G	T	-
+  A	0	0.1517	0.8488	0.1024	0.8643
+  C	0.1072	0	0.0653	0.7686	1.2432
+  G	0.5498	0.0598	0	0.1051	0.6162
+  T	0.0863	0.9169	0.1368	0	1.943
+  -	0.0284	0.0578	0.0312	0.0757	0
+
+
+--- alignment including ancestral nodes saved as  
+	 /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTreeMFP/intermediate_files/TreeTime_AncestralSequenceReconstruction/ancestral_sequences.fasta
+
+--- tree saved in nexus format as  
+	 /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTreeMFP/intermediate_files/TreeTime_AncestralSequenceReconstruction/annotated_tree.nexus
+

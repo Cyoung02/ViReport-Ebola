@@ -1,0 +1,2 @@
+TreeN93.py -v -i /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTreeMFP/output_files/pairwise_distances_phylogeny.csv.gz -o /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTreeMFP/intermediate_files/TreeN93/treen93.tre.gz
+TreeN93_cluster.py -v -i /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTreeMFP/intermediate_files/TreeN93/treen93.tre.gz -o /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/IQTreeMFP/output_files/transmission_clusters.tsv
