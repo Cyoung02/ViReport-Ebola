@@ -1,0 +1,1 @@
+FastTree -gamma -nt -gtr -out /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/FastTree/output_files/unrooted.tre

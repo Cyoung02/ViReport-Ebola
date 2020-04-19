@@ -1,0 +1,76 @@
+/--------------------\
+|  ViReport v0.0.1   |
+| Niema Moshiri 2020 |
+\--------------------/
+
+========================   Workflow Process   ========================
+[2020-04-19 03:24:13] ViReport was run as follows: ./ViReport.py -s ../Ebola_Sequences.fasta -t ../Sample_Times.tsv -o ../Analysis/PhyloTools/FastTree/ --continue_workflow -gz --format Markdown --phylo FastTree
+[2020-04-19 03:24:13] Output directory: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/FastTree
+[2020-04-19 03:24:13] Starting viral analysis workflow...
+
+[2020-04-19 03:24:13] Initializing module implementations...
+[2020-04-19 03:24:13] Finished initializing 13 module implementations
+
+[2020-04-19 03:24:13] Running 'Preprocessing_SafeNames'...
+Safename sequences exist. Skipping recomputation.
+Safename sample times exist. Skipping recomputation.
+[2020-04-19 03:24:13] Compressing preprocessed sequence(s)...
+[2020-04-19 03:24:13] Compressing preprocessed sample times...
+[2020-04-19 03:24:13] Preprocessed sequences output to: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/FastTree/output_files/sequences_safe.fas.gz
+[2020-04-19 03:24:13] Preprocessed sample times output to: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/FastTree/output_files/times_safe.txt.gz
+
+[2020-04-19 03:24:13] Running 'MultipleSequenceAlignment_MAFFT'...
+Multiple sequence alignment exists. Skipping recomputation.
+[2020-04-19 03:24:13] Compressing multiple sequence alignment...
+[2020-04-19 03:24:13] Multiple sequence alignment output to: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/FastTree/output_files/sequences_safe.aln.gz
+
+[2020-04-19 03:24:13] Running 'PairwiseDistancesSequence_tn93'...
+Pairwise sequence distances exist. Skipping recomputation.
+[2020-04-19 03:24:13] Compressing multiple sequence alignment...
+[2020-04-19 03:24:13] Pairwise sequence distances output to: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/FastTree/output_files/pairwise_distances_sequence.csv.gz
+
+[2020-04-19 03:24:13] Running 'PhylogeneticInference_FastTree'...
+[2020-04-19 03:45:34] Compressing (unrooted) phylogeny...
+[2020-04-19 03:45:34] Inferred (unrooted) phylogeny output to: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/FastTree/output_files/unrooted.tre.gz
+
+[2020-04-19 03:45:34] Running 'PairwiseDistancesTree_TreeSwift'...
+[2020-04-19 03:45:37] Compressing pairwise phylogenetic distances...
+[2020-04-19 03:45:44] Pairwise phylogenetic distances output to: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/FastTree/output_files/pairwise_distances_phylogeny.csv.gz
+
+[2020-04-19 03:45:44] Running 'Rooting_MinVar'...
+[2020-04-19 03:45:44] Compressing rooted phylogeny...
+[2020-04-19 03:45:44] Rooted phylogeny output to: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/FastTree/output_files/rooted.tre.gz
+
+[2020-04-19 03:45:44] Running 'Dating_treedater'...
+[2020-04-19 03:51:10] Compressing dated phylogeny...
+[2020-04-19 03:51:10] Dated phylogeny output to: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/FastTree/output_files/dated.tre.gz
+
+[2020-04-19 03:51:10] Running 'AncestralSequenceReconstruction_TreeTime'...
+[2020-04-19 03:52:26] Compressing ancestral sequence(s)...
+[2020-04-19 03:52:26] Ancestral sequence(s) output to: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/FastTree/output_files/ancestral_sequences.fas.gz
+
+[2020-04-19 03:52:26] Running 'TransmissionClustering_TreeN93TreeDists'...
+[2020-04-19 03:53:21] Compressing transmission clusters...
+[2020-04-19 03:53:21] Transmission clusters output to: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/FastTree/output_files/transmission_clusters.tsv.gz
+
+[2020-04-19 03:53:21] Writing report using 'WriteReport_Default'...
+[2020-04-19 03:56:55] Report written to: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/PhyloTools/FastTree/Report.md
+
+
+==========================   Information   ===========================
+Output Size (bytes): 149847531
+Execution Time (seconds): 1962
+
+
+===========================   Citations   ============================
+Katoh K., Standley D.M. (2013). "MAFFT Multiple Sequence Alignment Software Version 7: Improvements in Performance and Usability". Molecular Biology and Evolution. 30(4), 772-780.
+Le S.Q., Gascuel O. (2008). "An Improved General Amino Acid Replacement Matrix". Molecular Biology and Evolution. 25(7), 1307-1320.
+Mai U., Sayyari E., Mirarab S. (2017). "Minimum Variance Rooting of Phylogenetic Trees and Implications for Species Tree Reconstruction". PLoS ONE. 12(8), e0182238.
+Moshiri N. (2018). "TreeN93: a non-parametric distance-based method for inferring viral transmission clusters". bioRxiv.
+Moshiri N. (2020). "TreeSwift: a massively scalable Python tree package". SoftwareX. In press.
+Moshiri N. (2020). "ViReport" (https://github.com/niemasd/ViReport).
+Pond S.L.K., Weaver S., Leigh Brown A.J., Wertheim J.O. (2018). "HIV-TRACE (TRAnsmission Cluster Engine): a Tool for Large Scale Molecular Epidemiology of HIV-1 and Other Rapidly Evolving Pathogens". Molecular Biology and Evolution. 35(7), 1812-1819.
+Price M.N., Dehal P.S., Arkin A.P. (2010). "FastTree 2 -- Approximately Maximum-Likelihood Trees for Large Alignments". PLoS ONE. 5(3), e9490.
+Sagulenko P., Puller V., Neher R.A. (2018). "TreeTime: Maximum-likelihood phylodynamic analysis". Virus Evolution. 4(1), vex042.
+Tavare S. (1986). ""Some Probabilistic and Statistical Problems in the Analysis of DNA Sequences". Lectures on Mathematics in the Life Sciences. 17, 57-86.
+Volz E.M., Frost S.D.W. (2017). "Scalable relaxed clock phylogenetic dating". Virus Evolution. 3(2), vex025.
