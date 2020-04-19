@@ -1,0 +1,10 @@
+=== INPUTS ===
+Input File:  /home/colin/Desktop/NiemaLab/testingViReport/Analysis/DatingTools/TreeTime/intermediate_files/TreeN93/treen93.tre.gz
+Output File: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/DatingTools/TreeTime/output_files/transmission_clusters.tsv
+Mode:        max_non_singleton
+
+=== RESULTS ===
+Computing transmission clusters...
+Optimal Threshold: 0.000060
+Number of Non-Singleton Clusters: 254
+Total runtime: 0.06030464172363281 seconds

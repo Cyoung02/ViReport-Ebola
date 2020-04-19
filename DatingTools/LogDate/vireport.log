@@ -1,0 +1,11 @@
+/--------------------\
+|  ViReport v0.0.1   |
+| Niema Moshiri 2020 |
+\--------------------/
+
+========================   Workflow Process   ========================
+[2020-04-19 10:27:25] ViReport was run as follows: ./ViReport.py -s ../Ebola_Sequences.fasta -t ../Sample_Times.tsv -o ../Analysis/DatingTools/LogDate/ --continue_workflow -gz --format Markdown --date LogDate
+[2020-04-19 10:27:25] Output directory: /home/colin/Desktop/NiemaLab/testingViReport/Analysis/DatingTools/LogDate
+[2020-04-19 10:27:25] Starting viral analysis workflow...
+
+[2020-04-19 10:27:25] Initializing module implementations...

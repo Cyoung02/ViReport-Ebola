@@ -1,0 +1,274 @@
+
+Attempting to parse dates...
+	Using column 'name' as name. This needs match the taxon names in the tree!!
+	Using column 'date' as date.
+
+0.00	-TreeAnc: set-up
+
+1.63	###TreeTime.run: INITIAL ROUND
+
+130.99	###TreeTime.run: ITERATION 1 out of 2 iterations
+
+253.10	###TreeTime.run: CONVERGED
+
+253.11	TreeTime: The following tips don't fit the clock model, please remove
+      	them from the tree. Their dates have been reset:
+
+253.11	MK114118_1, input date: 1976.0, apparent date: 2053.48
+
+253.11	MK007340_1, input date: 2018.6178082191782, apparent date: 2043.97
+
+253.11	MK007329_1, input date: 2018.5684931506848, apparent date: 2045.33
+
+253.11	MK088510_1, input date: 2018.6178082191782, apparent date: 2045.44
+
+253.11	MK163655_1, input date: 2018.609589041096, apparent date: 2047.34
+
+253.11	MK163664_1, input date: 2018.6479452054793, apparent date: 2046.22
+
+253.11	MK163673_1, input date: 2018.672602739726, apparent date: 2046.68
+
+253.11	MK163661_1, input date: 2018.631506849315, apparent date: 2046.13
+
+253.11	MK163665_1, input date: 2018.6479452054793, apparent date: 2047.97
+
+253.11	MK163668_1, input date: 2018.6616438356164, apparent date: 2046.18
+
+253.11	MK163667_1, input date: 2018.658904109589, apparent date: 2046.03
+
+253.11	MK163671_1, input date: 2018.664383561644, apparent date: 2047.39
+
+253.11	MK163666_1, input date: 2018.6479452054793, apparent date: 2047.39
+
+253.11	MK163672_1, input date: 2018.6671232876713, apparent date: 2046.14
+
+253.11	MK163670_1, input date: 2018.664383561644, apparent date: 2046.81
+
+253.11	MK163669_1, input date: 2018.664383561644, apparent date: 2046.24
+
+253.11	MK163675_1, input date: 2018.6780821917807, apparent date: 2046.29
+
+253.11	MK163674_1, input date: 2018.6753424657534, apparent date: 2046.75
+
+253.11	MK163647_1, input date: 2018.5904109589042, apparent date: 2044.72
+
+253.11	MK007339_1, input date: 2018.6178082191782, apparent date: 2046.00
+
+253.11	MK163649_1, input date: 2018.6013698630136, apparent date: 2044.12
+
+253.11	MK007337_1, input date: 2018.6178082191782, apparent date: 2044.17
+
+253.11	MK163648_1, input date: 2018.5958904109589, apparent date: 2046.89
+
+253.11	MK731992_1, input date: 2018.6342465753426, apparent date: 2044.93
+
+253.11	MK731991_1, input date: 2018.609589041096, apparent date: 2044.98
+
+253.11	MK163659_1, input date: 2018.609589041096, apparent date: 2044.98
+
+253.11	MK731990_1, input date: 2018.6260273972603, apparent date: 2044.33
+
+253.11	MK007341_1, input date: 2018.6178082191782, apparent date: 2044.38
+
+253.11	MK007344_1, input date: 2018.623287671233, apparent date: 2047.05
+
+253.11	MK163656_1, input date: 2018.609589041096, apparent date: 2044.48
+
+253.11	MK163654_1, input date: 2018.609589041096, apparent date: 2045.14
+
+253.11	MK163644_1, input date: 2018.5876712328768, apparent date: 2044.59
+
+253.11	MK007332_1, input date: 2018.6123287671232, apparent date: 2045.24
+
+253.11	MK731985_1, input date: 2018.6150684931506, apparent date: 2044.69
+
+253.11	MK007336_1, input date: 2018.6150684931506, apparent date: 2046.70
+
+253.11	MK731984_1, input date: 2018.609589041096, apparent date: 2044.84
+
+253.11	MK163651_1, input date: 2018.6068493150685, apparent date: 2045.45
+
+253.11	MK007338_1, input date: 2018.6178082191782, apparent date: 2044.84
+
+253.11	MK731987_1, input date: 2018.609589041096, apparent date: 2044.89
+
+253.11	MK163657_1, input date: 2018.609589041096, apparent date: 2044.89
+
+253.11	MK731988_1, input date: 2018.6150684931506, apparent date: 2044.33
+
+253.11	MK007330_1, input date: 2018.5712328767124, apparent date: 2044.38
+
+253.11	MK731994_1, input date: 2018.6178082191782, apparent date: 2045.09
+
+253.11	MK163646_1, input date: 2018.5876712328768, apparent date: 2045.14
+
+253.11	MK163653_1, input date: 2018.609589041096, apparent date: 2045.24
+
+253.11	MK163652_1, input date: 2018.609589041096, apparent date: 2045.24
+
+253.11	MK731993_1, input date: 2018.609589041096, apparent date: 2045.24
+
+253.11	MK163660_1, input date: 2018.609589041096, apparent date: 2045.24
+
+253.11	MK163645_1, input date: 2018.5876712328768, apparent date: 2045.75
+
+253.11	MK163663_1, input date: 2018.645205479452, apparent date: 2045.75
+
+253.11	MK007334_1, input date: 2018.6150684931506, apparent date: 2044.53
+
+253.11	MK731986_1, input date: 2018.623287671233, apparent date: 2044.64
+
+253.11	MK007335_1, input date: 2018.6150684931506, apparent date: 2047.95
+
+253.11	MK731989_1, input date: 2018.623287671233, apparent date: 2044.69
+
+253.11	MK007331_1, input date: 2018.6123287671232, apparent date: 2045.98
+
+253.11	MK007342_1, input date: 2018.6205479452055, apparent date: 2045.98
+
+253.11	MK163662_1, input date: 2018.6424657534246, apparent date: 2044.74
+
+253.11	MK007343_1, input date: 2018.6205479452055, apparent date: 2046.08
+
+253.11	MK163650_1, input date: 2018.6013698630136, apparent date: 2044.84
+
+253.11	MK007333_1, input date: 2018.6123287671232, apparent date: 2044.89
+
+253.11	MK163658_1, input date: 2018.609589041096, apparent date: 2044.89
+
+253.11	KY471125_1, input date: 2015.0, apparent date: 1996.32
+
+253.11	KY471117_1, input date: 2015.0, apparent date: 1997.18
+
+253.11	KY471112_1, input date: 2015.0, apparent date: 1997.34
+
+253.11	KY471119_1, input date: 2015.0, apparent date: 1997.42
+
+253.11	KY471101_1, input date: 2015.0, apparent date: 1997.42
+
+253.11	KY471107_1, input date: 2015.0, apparent date: 1997.46
+
+253.11	KY471114_1, input date: 2015.0, apparent date: 1997.87
+
+253.11	KY471120_1, input date: 2015.0, apparent date: 1997.89
+
+253.11	KY471104_1, input date: 2015.0, apparent date: 1998.05
+
+253.11	KY471105_1, input date: 2015.0, apparent date: 1998.13
+
+253.11	KY471121_1, input date: 2015.0, apparent date: 1998.13
+
+253.11	KY471115_1, input date: 2015.0, apparent date: 1998.14
+
+253.11	KY471111_1, input date: 2015.0, apparent date: 1998.24
+
+253.11	KY471099_1, input date: 2015.0, apparent date: 1998.35
+
+253.11	KY471108_1, input date: 2015.0, apparent date: 1998.45
+
+253.11	KY471109_1, input date: 2015.0, apparent date: 1998.63
+
+253.11	KY471106_1, input date: 2015.0, apparent date: 1998.86
+
+253.11	KY471093_1, input date: 2015.0, apparent date: 1998.94
+
+253.11	KY471116_1, input date: 2015.0, apparent date: 1998.94
+
+253.11	KY471090_1, input date: 2015.0, apparent date: 1998.98
+
+253.11	KY471098_1, input date: 2015.0, apparent date: 1999.11
+
+253.11	KY471102_1, input date: 2015.0, apparent date: 1999.28
+
+253.11	KY471100_1, input date: 2015.0, apparent date: 1999.35
+
+253.11	KY471118_1, input date: 2015.0, apparent date: 1999.37
+
+253.11	KY471096_1, input date: 2015.0, apparent date: 1999.74
+
+253.11	KY471091_1, input date: 2015.0, apparent date: 1999.83
+
+253.11	KY471113_1, input date: 2015.0, apparent date: 2000.04
+
+253.11	KY471094_1, input date: 2015.0, apparent date: 2000.20
+
+253.11	KY471110_1, input date: 2015.0, apparent date: 2000.25
+
+253.11	KY471097_1, input date: 2015.0, apparent date: 2000.77
+
+253.11	KY471103_1, input date: 2015.0, apparent date: 2000.96
+
+253.11	KU143789_1, input date: 2014.0, apparent date: 2027.46
+
+253.11	MF599520_1, input date: 2015.2260273972602, apparent date: 2028.10
+
+253.11	KU296585_1, input date: 2015.521917808219, apparent date: 2016.82
+
+253.11	KU296357_1, input date: 2015.5164383561644, apparent date: 2016.28
+
+253.11	KU296650_1, input date: 2015.527397260274, apparent date: 2016.96
+
+253.11	KU296460_1, input date: 2015.5164383561644, apparent date: 2016.96
+
+253.11	KU296319_1, input date: 2015.5383561643835, apparent date: 2016.98
+
+253.11	KU296684_1, input date: 2015.5575342465754, apparent date: 2016.26
+
+253.11	KU296502_1, input date: 2015.5794520547945, apparent date: 2016.95
+
+253.11	KU296701_1, input date: 2015.5191780821917, apparent date: 2016.41
+
+253.11	KU296838_1, input date: 2015.521917808219, apparent date: 2016.48
+
+253.11	KU296727_1, input date: 2015.5054794520547, apparent date: 2017.21
+
+253.11	KU296603_1, input date: 2015.4753424657533, apparent date: 2016.53
+
+253.11	KU296456_1, input date: 2015.521917808219, apparent date: 2016.62
+
+Inferred sequence evolution model (saved as /home/colin/Desktop/NiemaLab/testingViReport/Analysis/DatingTools/TreeTime/intermediate_files/TreeTime_Dating/sequence_evolution_model.txt):
+Substitution rate (mu): 1.0
+
+Equilibrium frequencies (pi_i):
+  A: 0.2
+  C: 0.2
+  G: 0.2
+  T: 0.2
+  -: 0.2
+
+Symmetrized rates from j->i (W_ij):
+	A	C	G	T	-
+  A	0	1.25	1.25	1.25	1.25
+  C	1.25	0	1.25	1.25	1.25
+  G	1.25	1.25	0	1.25	1.25
+  T	1.25	1.25	1.25	0	1.25
+  -	1.25	1.25	1.25	1.25	0
+
+Actual rates from j->i (Q_ij):
+	A	C	G	T	-
+  A	0	0.25	0.25	0.25	0.25
+  C	0.25	0	0.25	0.25	0.25
+  G	0.25	0.25	0	0.25	0.25
+  T	0.25	0.25	0.25	0	0.25
+  -	0.25	0.25	0.25	0.25	0
+
+
+Inferred sequence evolution model (saved as /home/colin/Desktop/NiemaLab/testingViReport/Analysis/DatingTools/TreeTime/intermediate_files/TreeTime_Dating/molecular_clock.txt):
+Root-Tip-Regression:
+ --rate:	8.127e-05
+ --r^2:  	0.48
+
+--- saved tree as 
+	 /home/colin/Desktop/NiemaLab/testingViReport/Analysis/DatingTools/TreeTime/intermediate_files/TreeTime_Dating/timetree.pdf
+
+--- root-to-tip plot saved to  
+	/home/colin/Desktop/NiemaLab/testingViReport/Analysis/DatingTools/TreeTime/intermediate_files/TreeTime_Dating/root_to_tip_regression.pdf
+--- saved divergence times in 
+	 /home/colin/Desktop/NiemaLab/testingViReport/Analysis/DatingTools/TreeTime/intermediate_files/TreeTime_Dating/dates.tsv
+
+--- tree saved in nexus format as  
+	 /home/colin/Desktop/NiemaLab/testingViReport/Analysis/DatingTools/TreeTime/intermediate_files/TreeTime_Dating/timetree.nexus
+
+--- divergence tree saved in nexus format as  
+	 /home/colin/Desktop/NiemaLab/testingViReport/Analysis/DatingTools/TreeTime/intermediate_files/TreeTime_Dating/divergence_tree.nexus
+
