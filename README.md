@@ -7,4 +7,4 @@ This repository contains several different molecular epidemiological analyses of
 All sequences are publicly available from GenBank, and are filtered to have a minimum sequence length of 18,000 base pairs.
 
 The scope of this analysis may increase to encompass different steps in the ViReport pipeline later.
-Note: ViReport is still in early development and I am working on getting it working, so analyses will not be complete. This repository will update as I progress.
+Note: ViReport is still in early development and analyses may not be complete. This repository will update as I progress.
