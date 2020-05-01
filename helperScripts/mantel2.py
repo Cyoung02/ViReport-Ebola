@@ -44,7 +44,7 @@ secondContents = open(distances2).readline().split(",")
 secondContents[len(secondContents) - 1] = secondContents[len(secondContents) - 1].strip()
 del secondContents[0]
 
-secondReordered = np.empty([len(secondContents) - 1,len(secondContents) - 1])
+secondReordered = np.empty([len(secondContents), len(secondContents)])
 
 #reorder second matrix to be in the same order as first
 for strand1 in range(0, len(firstContents)): 
