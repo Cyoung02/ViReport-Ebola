@@ -35,10 +35,12 @@ def intoArray(location):
 firstMatrix = intoArray(distances1)
 firstContents = open(distances1).readline().split(",")
 firstContents[len(firstContents) - 1] = firstContents[len(firstContents) - 1].strip()
+del firstContents[0]
 
 secondMatrix = intoArray(distances2)
 secondContents = open(distances2).readline().split(",")
 secondContents[len(secondContents) - 1] = secondContents[len(secondContents) - 1].strip()
+del secondContents[0]
 
 #remove temporary distance matrixes
 if args.dists==False:
@@ -48,11 +50,12 @@ if args.dists==False:
 error = 0.0
 
 #compute sum of squared error 
-for strand1 in range(0, len(firstContents) - 2): 
-    strand1Name = firstContents[strand1 + 1]
-    for strand2 in range(strand1 + 1, len(firstContents) - 1):
-        strand2Name = secondContents[strand2+1]
-        error += math.pow(firstMatrix[strand2][strand1] - secondMatrix[secondContents.index(strand2Name) - 1][secondContents.index(strand1Name) - 1], 2)
+for strand1 in range(0, len(firstContents) - 1): 
+    strand1Name = firstContents[strand1]
+    for strand2 in range(strand1 + 1, len(firstContents)):
+        strand2Name = firstContents[strand2]
+        error += math.pow(firstMatrix[strand2][strand1] - secondMatrix[secondContents.index(strand2Name)][secondContents.index(strand1Name)], 2)
 
-error = error/comb(len(firstContents) - 1, 2)
+error = error/comb(len(firstContents), 2)
+print("Mean Error Squared: ", end = "")
 print(error)
