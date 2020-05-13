@@ -23,14 +23,16 @@ if args.correlation != "spearman" and args.correlation != "pearson":
 def read_file(filename):
     f = open(filename)
     lines = f.readlines()
-    del lines[0]
     result = defaultdict(dict)
 
     # add lines to dictionary
     for line in lines:
-        data = line.split(",")
-        result[data[0]][data[1]] = data[2].strip()
-        result[data[1]][data[0]] = data[2].strip()
+        try:
+            data = line.split(",")
+            result[data[0]][data[1]] = float(data[2].strip())
+            result[data[1]][data[0]] = float(data[2].strip())
+        except:
+            continue
 
     # add redundant distances
     for name in result:

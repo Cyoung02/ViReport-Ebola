@@ -15,12 +15,14 @@ args = parser.parse_args()
 def read_file(filename):
     f = open(filename)
     lines = f.readlines()
-    del lines[0]
     result = defaultdict(dict)
     for line in lines:
-        data = line.split(",")
-        result[data[0]][data[1]] = data[2].strip()
-        result[data[1]][data[0]] = data[2].strip()
+        try:
+            data = line.split(",")
+            result[data[0]][data[1]] = float(data[2].strip())
+            result[data[1]][data[0]] = float(data[2].strip())
+        except:
+            continue
     return result
     
 dict_1 = read_file(args.dists_1)
