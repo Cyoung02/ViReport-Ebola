@@ -12,7 +12,7 @@ from skbio.stats.distance import mantel
 parser = argparse.ArgumentParser(description="Given two tn93-format distance files, calculate the mantel correlation between them")
 parser.add_argument("-d1", "--dists_1", required=True, help="Fist distances (tn-93)")
 parser.add_argument("-d2", "--dists_2", required=True, help="Second distances (tn-93)")
-parser.add_argument("-c", "--correlation", required=False, default="spearman", help="correlation coefficient to be used in mantel test (default: pearson)")
+parser.add_argument("-c", "--correlation", required=False, default="spearman", help="correlation coefficient to be used in mantel test (default: spearman)")
 args = parser.parse_args()
 
 # check valid correlation
@@ -49,9 +49,9 @@ array_2 = np.empty([len(dict_2), len(dict_2)])
 
 # convert dictionaries into numpy arrays
 curr_row = 0
-for id_1 in dict_1:
+for id_1 in sorted(dict_1.keys()):
     curr_col = 0
-    for id_2 in dict_1:
+    for id_2 in sorted(dict_1.keys()):
         array_1[curr_row][curr_col] = dict_1[id_1][id_2]
         array_2[curr_row][curr_col] = dict_2[id_1][id_2]
         curr_col += 1
